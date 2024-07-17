@@ -1,0 +1,60 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('/public/cityscape-with-boat-water-cityscape-background_1340-43871.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.App-header {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input, select, button {
+  margin: 5px 0 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #6a11cb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2575fc;
+}
